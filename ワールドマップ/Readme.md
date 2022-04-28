@@ -19,5 +19,4 @@
     - [QuestCompass.cs](./QuestCompass.cs)
 
 # 構成
-
-[!構成](./Mecanism.png)
+![構成](./Mecanism.png)
