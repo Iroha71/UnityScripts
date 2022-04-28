@@ -29,9 +29,6 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="マップを開く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="380" width="90" height="20" as="geometry"/>
-                </mxCell>
                 <mxCell id="10" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="15" target="13" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="320" y="350" as="sourcePoint"/>
@@ -140,13 +137,27 @@
                 <mxCell id="32" value="生成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="660" y="180" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3" target="32">
+                <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;exitX=0.478;exitY=0.1;exitDx=0;exitDy=0;startArrow=none;exitPerimeter=0;" edge="1" parent="1" source="9" target="32">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="720" y="430" as="sourcePoint"/>
                         <mxPoint x="630" y="180" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="670" y="210"/>
-                            <mxPoint x="590" y="400"/>
+                            <mxPoint x="660" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="MapSystem.cs" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="310" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="マップを開く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="300" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="34" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="710" y="355" as="sourcePoint"/>
+                        <mxPoint x="670" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="370"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>

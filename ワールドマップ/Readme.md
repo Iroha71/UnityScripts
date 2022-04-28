@@ -1,4 +1,7 @@
 # オブジェクト構成
+- プレイヤー
+  - [MapSystem.cs](./MapSystem.cs)
+
 - MapSystem(予め配置する空オブジェクト)
   - [MapMakerDisplayer.cs](./MapMakerDisplayer.cs)
   - MapCamera(Camera)
